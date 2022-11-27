@@ -3,6 +3,7 @@
 #          cmp(a,b)<0   if a should be placed before b,
 #          cmp(a,b)==0  if arr is still sorted after a and b are exchanged,
 #          cmp(a,b)>0   if a should be placed behind b.
+
 def multi_sort(arr, cmp, method="None"):
     if(method=="quick"):
         quick_sort(arr,cmp)
